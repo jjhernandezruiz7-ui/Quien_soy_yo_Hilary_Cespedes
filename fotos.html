@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Fotos y Videos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>📸 Mis Fotos y Videos</h1>
+    <p>Aquí compartiré algunas imágenes y videos propios.</p>
+
+<div class="galeria">
+    <div class="caja">
+        <img src="FOTO1.jpeg" alt="Foto 1"onclick="abrirLightbox(this)">
+    </div>
+    <div class="caja">
+        <img src="FOTO2.jpeg" alt="Foto 2"onclick="abrirLightbox(this)">
+    </div>
+    <div class="caja">
+        <video controls>
+            <source src="VIDEO1.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="caja">
+        <video controls>
+            <source src="videos/video2.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<div class="lightbox" id="lightbox" onclick="cerrarLightbox()">
+    <img id="imagenAmpliada" src="">
+</div>
+
+    <br><a href="index.html" class="boton">⬅️ Volver a la página principal</a>
+
+</body>
+</html>

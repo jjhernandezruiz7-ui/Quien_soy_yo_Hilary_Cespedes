@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Proyecto de Vida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🌟 Mi Proyecto de Vida 🌟</h1>
+    <p>Bienvenido a mi página web, aquí compartiré quién soy, mis debilidades, fortalezas, metas y fotos.</p>
+
+    <nav>
+        <ul>
+            <li><a href="quien-soy.html">👤 Quién soy yo</a></li>
+            <li><a href="debilidades.html">⚠️ Debilidades</a></li>
+            <li><a href="fortalezas.html">💪 Fortalezas</a></li>
+            <li><a href="metas.html">🌈 Sueños y Metas</a></li>
+            <li><a href="fotos.html">📸 Fotos y Videos</a></li>
+        </ul>
+    </nav>
+ <script>
+ function abrirLightbox(img) {
+    document.getElementById("imagenAmpliada").src = img.src;
+    document.getElementById("lightbox").style.display = "flex";
+ }
+ function cerrarLightbox() {
+    document.getElementById("lightbox").style.display = "none";
+ }
+</script>
+    <video controls>
+        <source src="VIDEO1.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>
